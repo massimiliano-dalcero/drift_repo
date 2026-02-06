@@ -1,0 +1,7 @@
+Origin: DRIFT
+Label: LabRepo
+Codename: stable
+Architectures: amd64 i386 arm64
+Components: main
+Description: Repository APT
+SignWith: !/opt/sign_script.sh

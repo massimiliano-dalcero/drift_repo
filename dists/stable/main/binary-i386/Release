@@ -1,0 +1,5 @@
+Component: main
+Origin: DRIFT
+Label: LabRepo
+Architecture: i386
+Description: Repository APT

@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: DRIFT
+Label: LabRepo
+Codename: stable
+Date: Fri, 06 Feb 2026 21:04:04 UTC
+Architectures: amd64 i386 arm64
+Components: main
+Description: Repository APT
+MD5Sum:
+ b4068eefbb38f225bc89ff05c69e30ef 526 main/binary-amd64/Packages
+ cb67e64e99097e316ff86a9f06d7a16d 380 main/binary-amd64/Packages.gz
+ 58e7c259c125b8610fb2155cc50b45df 93 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ 8564ecad858a5d56a3dd3ad460a99aa5 92 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ b8bc9ff36b96772688974a4d86c4c1e4 93 main/binary-arm64/Release
+SHA1:
+ f223a862579dab5f44912a14485bbb997f5b8563 526 main/binary-amd64/Packages
+ 8c2449dfa78430b217aa0d94ae952f0356dbf80d 380 main/binary-amd64/Packages.gz
+ 8eebe9fbb6dae685ad5cc7ff767e583ede0d072f 93 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ aea6fc2ad121419abc3e47da8984ddad717f226d 92 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 700ac7c2c6273a5bdbc85be0fbf825b91297a0c0 93 main/binary-arm64/Release
+SHA256:
+ 53cd7a901008f3cf62c975401453025205f888cf2468c7db2931493f5b37b624 526 main/binary-amd64/Packages
+ 29abfe05edd0685d8c0e9adc6369e3a59e2fbc18771a3318b2286bc219a12058 380 main/binary-amd64/Packages.gz
+ 8530a6c9c998e95b3b6600b299e0d20a27914a56628bc31f3c7017ff4087d0f2 93 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 7d220c443d2836870b74d9defd13bca24606694bf308717d50a1a9f3eb528640 92 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ d0a9b667745c4a98dddd9511528b8391f2e8bba3427ff3dabcbde31346532aca 93 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE0bFPvHm3Yy06hlO/PfUpjXa8pg4FAmmGV0QACgkQPfUpjXa8
+pg7bRA/9E5PkLK+VkP1Aq6WpsMLsU/SchjZZZYLOxGh2yHQaRWw45gnQFPm8ZSIZ
+mv3M2DGIjiy9dFIiNcgYBQ/TAkkSoFHVC4+icL9wvlCl7GUpghyJvqdEtbLlzfqc
+fZ1pe0HasOpfZegE58wYOY536MVxQnIpbdEN4x6KNjVv9u+1LtrIL6R+LVB5xWMg
+Vge216vXqOZ86dcRyqIXZOIVXtlUswgDIHSUoVH+YyQeorA07xS4swlsmgvhsfwi
+f4u9KPQ4u3hZebvdD+D6uc7sIPrXopcEv3WGpY3Dcb9DE0TIXgP5/lNYeBqVRCBX
+wtgnJZu9M77UvjI9nZ6gYONqzzDmYU6NmrGdzz5Z3OLA0O60XpKxBOigwNtSSdbg
+BoqbIZpLOFBzm0iHZM9EhOFqQsu5Vp6xd2ESHM+rTU6uo6YI2SRRXXKfELPtIvnZ
+ILmscSLDhXXBu+7kCS16OWt0DPmbeZfvNdDQVTUuoGSBcPD8NoiZDbvcHorStb21
+arck6Sc1+LkLWsOir+opddwPlaHzOc0PgAu0CgZQkIJ1+7vWwjRnAeVxqzuUUu6j
+bsu2nLJsJx5Id3at5UhL8lYpc9W4V0uuLBMZKq7nNFj7qUWDRa1vFndtLQbv4JY6
+yD3FC0Tb6kpMW+6C2WK0p9SG4daBHwt4fQROz94+1zcwKwnHOSY=
+=R8aJ
+-----END PGP SIGNATURE-----
