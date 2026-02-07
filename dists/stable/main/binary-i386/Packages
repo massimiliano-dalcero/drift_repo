@@ -239,17 +239,17 @@ Description: Meta-packet for DRIFT theme environment.
  DRIFT theme configuration.
 
 Package: drift-utility
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: git,ncdu,mc,sqlite3,qrencode,zbar-tools
+Depends: git,ncdu,mc,sqlite3,qrencode,zbar-tools,binwalk3,msedit
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-utility/drift-utility_1.0.0_all.deb
-Size: 606
-SHA256: c7de07daadf2d48108bb40060ee62c7a54f1665c6efbe0c2969fc18d2e3f6293
-SHA1: 3022fd297d3a24171cde21308076cf0ae52a1e86
-MD5sum: 375d749192fede09d94ecd0e3c12817b
+Filename: pool/main/d/drift-utility/drift-utility_1.0.1_all.deb
+Size: 618
+SHA256: 8d76526105a74613db4bef7be2e30897583c6c6e5f73104fe77f4e6e3da2ad0c
+SHA1: a82fd6d1ffd556ba26b0b2aea5cf04ae20b71ce0
+MD5sum: 6c0e14b96cfa8471624d53daf79188b8
 Description: Meta-packet for DRIFT utility environment.
  This package installs the dependencies required for the 
  DRIFT utility configuration.

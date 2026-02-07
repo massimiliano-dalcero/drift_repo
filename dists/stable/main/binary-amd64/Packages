@@ -1,3 +1,16 @@
+Package: binwalk3
+Version: 3.1.0
+Architecture: amd64
+Maintainer: Drift <drift@driftlinux.com>
+Priority: optional
+Section: utils
+Filename: pool/main/b/binwalk3/binwalk3_3.1.0_amd64.deb
+Size: 1376664
+SHA256: 0dd57d686b862643d5041550fb6352f0f6716002bfea5dfb7ddb84461df81d9c
+SHA1: de3a4368d0a55c863c2aa60eb2601af704e4af55
+MD5sum: e16dbbf97d0bae53df1451b82f36ebd5
+Description: Tool library for analyzing binary blobs and executable code
+
 Package: drift-audio
 Version: 1.0.0
 Architecture: all
@@ -15,16 +28,16 @@ Description: Meta-packet for DRIFT audio environment.
  DRIFT audio configuration.
 
 Package: drift-base-files
-Version: 1.0.3
+Version: 1.0.4
 Architecture: amd64
 Maintainer: Drift <drift@driftlinux.com>
 Priority: optional
 Section: utils
-Filename: pool/main/d/drift-base-files/drift-base-files_1.0.3_amd64.deb
-Size: 1480252
-SHA256: 3a48710b3199581f1b4f9531560432ec0105f58706aa4bafd0375150a368f1a6
-SHA1: 86a8938a558052ebe4ebaae8fbcbf8eb0e19b1e9
-MD5sum: ae63d4f2f4c476853143b76c4ad276f0
+Filename: pool/main/d/drift-base-files/drift-base-files_1.0.4_amd64.deb
+Size: 11222
+SHA256: d34510fb09b24cce26dd682efcf4fda97f20e4e63e332193a05bb23a94fde7a0
+SHA1: f302f3c91771b54c31df1f37e509f220471744bb
+MD5sum: af154a08d1701ff7f983529beaaeb17d
 Description: File di base di drift linux 1.0
  Questo pacchetto installa i file direttamente in /etc, /usr e nelle altre directory di sistema.
 
@@ -253,17 +266,17 @@ Description: Meta-packet for DRIFT theme environment.
  DRIFT theme configuration.
 
 Package: drift-utility
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: git,ncdu,mc,sqlite3,qrencode,zbar-tools
+Depends: git,ncdu,mc,sqlite3,qrencode,zbar-tools,binwalk3,msedit
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-utility/drift-utility_1.0.0_all.deb
-Size: 606
-SHA256: c7de07daadf2d48108bb40060ee62c7a54f1665c6efbe0c2969fc18d2e3f6293
-SHA1: 3022fd297d3a24171cde21308076cf0ae52a1e86
-MD5sum: 375d749192fede09d94ecd0e3c12817b
+Filename: pool/main/d/drift-utility/drift-utility_1.0.1_all.deb
+Size: 618
+SHA256: 8d76526105a74613db4bef7be2e30897583c6c6e5f73104fe77f4e6e3da2ad0c
+SHA1: a82fd6d1ffd556ba26b0b2aea5cf04ae20b71ce0
+MD5sum: 6c0e14b96cfa8471624d53daf79188b8
 Description: Meta-packet for DRIFT utility environment.
  This package installs the dependencies required for the 
  DRIFT utility configuration.
@@ -283,4 +296,38 @@ MD5sum: de091ba1a2aac80d5141459fd8003c52
 Description: Meta-packet for DRIFT xfce environment.
  This package installs the dependencies required for the 
  DRIFT xfce configuration.
+
+Package: klogg
+Architecture: amd64
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.2), libqt6core5compat6 (>= 6.2.1), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6network6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.3.0), libqt6xml6t64 (>= 6.1.2), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Priority: optional
+Section: utils
+Filename: pool/main/k/klogg/klogg_24.11.0.1685_amd64.deb
+Size: 13069352
+SHA256: 01cae3644fe038dc6bcbef6ab135ea5a8a4ac3f478b08117519144290c839017
+SHA1: cf9a39b5c34136dd9de690dbb43f861c55a56970
+MD5sum: 53eda3cc65d0e869164ed1fc5fdbfab9
+Description: klogg log viewer
+ Klogg is a multi-platform GUI application that helps browse and search
+ through long and complex log files. It is designed with programmers and
+ system administrators in mind and can be seen as a graphical, interactive
+ combination of grep, less, and tail.
+ .
+Homepage: http://github.com/variar/klogg
+Maintainer: Anton Filimonov <anton.filimonov@gmail.com>
+Version: 24.11.0.1685
+Installed-Size: 34718
+
+Package: msedit
+Version: 1.2.0
+Architecture: amd64
+Maintainer: Drift <drift@driftlinux.com>
+Priority: optional
+Section: utils
+Filename: pool/main/m/msedit/msedit_1.2.0_amd64.deb
+Size: 102986
+SHA256: a9015d4a8a61438b81ccea8441ea1af2efee9641f740d603a53c31d427326c73
+SHA1: d86bda9f0662071fd68614c3adcf9d162e9a4a27
+MD5sum: 0d5c991ccf1c9bedfc4712260134fd03
+Description: Microsoft Edit - A simple editor for simple needs (https://github.com/microsoft/edit)
 
