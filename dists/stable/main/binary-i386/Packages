@@ -1,0 +1,256 @@
+Package: drift-audio
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: pulseaudio,pavucontrol,alsa-utils
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-audio/drift-audio_1.0.0_all.deb
+Size: 596
+SHA256: 985b32c463ec9719147e91dcaf1ec39588fb9b3ca98b4b7a04f7a7344e49a849
+SHA1: 1e6a6c266fb3506b6b8c3d0c447c6a241e3066a5
+MD5sum: bd92a382e3a4f9c206b170ece9a452cf
+Description: Meta-packet for DRIFT audio environment.
+ This package installs the dependencies required for the 
+ DRIFT audio configuration.
+
+Package: drift-core
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: casper,sudo,netplan.io,policykit-1-gnome,zstd,strace,psmisc,command-not-found,plocate,openssh-client,python3,python3-pip,python3-venv,python3-requests
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-core/drift-core_1.0.0_all.deb
+Size: 666
+SHA256: 9962b0f4bc65f2f3cb7fb8dcd5bee8ba9a51adecffd62f08b1a9e293af2d16ae
+SHA1: 52e82c7274065853b13fa3a6ce9f43d1a837a7eb
+MD5sum: f72a93a82bea14a76f24d7f0bb36d782
+Description: Meta-packet for DRIFT core environment.
+ This package installs the dependencies required for the 
+ DRIFT core configuration.
+
+Package: drift-desktop
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: network-manager-gnome,arandr,plymouth-theme-spinner,gvfs,gvfs-backends,gvfs-fuse
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-desktop/drift-desktop_1.0.0_all.deb
+Size: 630
+SHA256: 6a0231b198519cb4f6e6f9d2c84a062b37df33747ff60f534da150368b748ed0
+SHA1: 540a9d6bd807d1a9f52c6144b6111b4796ebdb03
+MD5sum: 70b39ce96317a6496365860f99db021b
+Description: Meta-packet for DRIFT desktop environment.
+ This package installs the dependencies required for the 
+ DRIFT desktop configuration.
+
+Package: drift-desktop-core
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: xorg,xserver-xorg-video-all,lightdm,lightdm-gtk-greeter,lightdm-gtk-greeter-settings,librsvg2-common
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-desktop-core/drift-desktop-core_1.0.0_all.deb
+Size: 638
+SHA256: 821d34aa8598e292cab13cd9d39a0462407d7c40c5ea0ccada884a28ce837a12
+SHA1: 5f71961480d9bdc85f2c220df96ca34c80c045ff
+MD5sum: 8e270fd70fea44cba93fc22ed968f29c
+Description: Meta-packet for DRIFT desktop-core environment.
+ This package installs the dependencies required for the 
+ DRIFT desktop-core configuration.
+
+Package: drift-dev
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: adb,ghex,hexyl
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-dev/drift-dev_1.0.0_all.deb
+Size: 588
+SHA256: 7092a518e396711e1f39e6f8d66ca2cfb85f60b38b4ad47eaaac86ba8ae12505
+SHA1: c472ed8f6c9fc29320389ec2047844a2a7361529
+MD5sum: a1218c91820ba51757feccd4907d4503
+Description: Meta-packet for DRIFT dev environment.
+ This package installs the dependencies required for the 
+ DRIFT dev configuration.
+
+Package: drift-fonts
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: fonts-noto,fonts-ubuntu,fonts-liberation,fonts-dejavu
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-fonts/drift-fonts_1.0.0_all.deb
+Size: 606
+SHA256: ffdeec12f7f2722b3d610f64633f6dfb3c90a47654ac8690617ed5f70774ece0
+SHA1: b314335c1b4186f44eaef26375191765992ebc2d
+MD5sum: fa7400bef6124f169754d680fccf6c30
+Description: Meta-packet for DRIFT fonts environment.
+ This package installs the dependencies required for the 
+ DRIFT fonts configuration.
+
+Package: drift-forensics
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: guymager,xmount,ewf-tools,gddrescue,ddrutility,sleuthkit,libimage-exiftool-perl,python3-opentimestamps
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-forensics/drift-forensics_1.0.0_all.deb
+Size: 652
+SHA256: b69ba6340e0d23ce0024a6b4cb84458f9d218663c1b468e4cbdbee91116f8ce6
+SHA1: 5ba110bfb99d3bb1e2dff835f511ea289fb64bd3
+MD5sum: bd5648c7bb698d32740407d6a6745e5a
+Description: Meta-packet for DRIFT forensics environment.
+ This package installs the dependencies required for the 
+ DRIFT forensics configuration.
+
+Package: drift-hypervisor
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: virtualbox-guest-x11
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-hypervisor/drift-hypervisor_1.0.0_all.deb
+Size: 596
+SHA256: 7655e98bb5ee2c44d5e7eb38fc131cbf64266f3ceac978d4f839faab17c8d004
+SHA1: b6edac01704b6e78f6b92ec4934a278118e79e76
+MD5sum: 673e244cf699883b00d1505affe7ae6a
+Description: Meta-packet for DRIFT hypervisor environment.
+ This package installs the dependencies required for the 
+ DRIFT hypervisor configuration.
+
+Package: drift-multimedia
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: ffmpeg,vlc,nomacs,geeqie,qpdf
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-multimedia/drift-multimedia_1.0.0_all.deb
+Size: 602
+SHA256: c481f7c6646e5268549332866bcd4954f33355a5b099ce8dc05cddae1adc7dc4
+SHA1: dec160e29400a67b6dfbfe84ef1f3d2960320c32
+MD5sum: d063230847c70a9256601d249b8d5968
+Description: Meta-packet for DRIFT multimedia environment.
+ This package installs the dependencies required for the 
+ DRIFT multimedia configuration.
+
+Package: drift-network
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: network-manager,openssl,dnsutils,whois,tor,traceroute
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-network/drift-network_1.0.0_all.deb
+Size: 612
+SHA256: 9d0f0a46cfe9688b1cb900275d57a3d80d373db4ff52879276f63e0b4d1d0c3a
+SHA1: 059590b30d996a8d92dc867f3fa504a4364b1073
+MD5sum: 20a16685e45b8965631264350179dee0
+Description: Meta-packet for DRIFT network environment.
+ This package installs the dependencies required for the 
+ DRIFT network configuration.
+
+Package: drift-network-utility
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: curl,wget,filezilla,firefox,tcpdump,wireshark,mitmproxy
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-network-utility/drift-network-utility_1.0.0_all.deb
+Size: 626
+SHA256: db1d29d4ea75d2f17f15187581c88b7dfef6b02783d5ab7371b7ffc6ca734a70
+SHA1: 0345c7d81782b92e6634097942fea184ad08f524
+MD5sum: 375fcb5c42da45f8bf09271ea3362dbb
+Description: Meta-packet for DRIFT network-utility environment.
+ This package installs the dependencies required for the 
+ DRIFT network-utility configuration.
+
+Package: drift-storage-fs
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: ntfs-3g,exfatprogs,hfsprogs,hfsplus,lvm2,mdadm,cryptsetup,cryptsetup-bin,dislocker,libbde-utils
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-storage-fs/drift-storage-fs_1.0.0_all.deb
+Size: 640
+SHA256: 4a455209dfa20a3eba40adb05ff0898ff2cde91f9f699b61cbb4da2ae14aa0d9
+SHA1: 14a4ab0ace8f1db689361517cedd96e49b73e8ee
+MD5sum: 1c093da6fcb447bba4e5e9f1dec4c046
+Description: Meta-packet for DRIFT storage-fs environment.
+ This package installs the dependencies required for the 
+ DRIFT storage-fs configuration.
+
+Package: drift-storage-utility
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: gparted,smartmontools,gsmartcontrol,nvme-cli,hdparm,sdparm,pciutils,usbutils
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-storage-utility/drift-storage-utility_1.0.0_all.deb
+Size: 632
+SHA256: db69805898dec1c9b96da5696b2afba55c1ddbd8149a9f1aff31865b92bf2714
+SHA1: f7a80b3aaf5cdfb0ef5d57cfbee5c3a55ab67e2c
+MD5sum: 5c6defe36bd194065e0006f142bf843c
+Description: Meta-packet for DRIFT storage-utility environment.
+ This package installs the dependencies required for the 
+ DRIFT storage-utility configuration.
+
+Package: drift-theme
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: arc-theme,papirus-icon-theme,dmz-cursor-theme
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-theme/drift-theme_1.0.0_all.deb
+Size: 602
+SHA256: 6b65751808d7e042485dea595ec8fb2b855e0bf52145e6631b65327899daf9d2
+SHA1: 3f85a9a2bc1b5bf91c434065655ddf2615122cc9
+MD5sum: d729bb1084155e6e209097b00f3ace1c
+Description: Meta-packet for DRIFT theme environment.
+ This package installs the dependencies required for the 
+ DRIFT theme configuration.
+
+Package: drift-utility
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: git,ncdu,mc,sqlite3,qrencode,zbar-tools
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-utility/drift-utility_1.0.0_all.deb
+Size: 606
+SHA256: c7de07daadf2d48108bb40060ee62c7a54f1665c6efbe0c2969fc18d2e3f6293
+SHA1: 3022fd297d3a24171cde21308076cf0ae52a1e86
+MD5sum: 375d749192fede09d94ecd0e3c12817b
+Description: Meta-packet for DRIFT utility environment.
+ This package installs the dependencies required for the 
+ DRIFT utility configuration.
+
+Package: drift-xfce
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: xfce4,xfce4-goodies,xfce4-whiskermenu-plugin,xfce4-screenshooter,xfce4-taskmanager,xfce4-places-plugin,xfce4-pulseaudio-plugin,thunar,thunar-gtkhash,thunar-volman,thunar-archive-plugin
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-xfce/drift-xfce_1.0.0_all.deb
+Size: 664
+SHA256: 4dc64af1c868cf3ac1ac11852998c182baa4bcb8654912e6a57386c0a0a5c228
+SHA1: af2c4706e70458ef31860fed48e76c03f82c0c7e
+MD5sum: de091ba1a2aac80d5141459fd8003c52
+Description: Meta-packet for DRIFT xfce environment.
+ This package installs the dependencies required for the 
+ DRIFT xfce configuration.
+
