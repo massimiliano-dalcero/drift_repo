@@ -1,0 +1,14 @@
+Package: drift-base-files
+Version: 1.0.2
+Architecture: amd64
+Maintainer: Drift <drift@driftlinux.com>
+Priority: optional
+Section: utils
+Filename: pool/main/d/drift-base-files/drift-base-files_1.0.2_amd64.deb
+Size: 1480324
+SHA256: 7a16e3e0acf7794d944b804e9cac1e1eb12f05646e17d2c722d2418448ae7bf5
+SHA1: 7fe100401ecec8c0fc243af1e866e60cd7d87493
+MD5sum: 5a4a3ea1687dcb7aad26fed425cd438a
+Description: File di base di drift linux 1.0
+ Questo pacchetto installa i file direttamente in /etc, /usr e nelle altre directory di sistema.
+
