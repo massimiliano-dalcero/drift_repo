@@ -79,17 +79,17 @@ Description: Meta-packet for DRIFT dev environment.
  DRIFT dev configuration.
 
 Package: drift-fonts
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: fonts-noto,fonts-ubuntu,fonts-liberation,fonts-dejavu
+Depends: fonts-ubuntu,fonts-liberation,fonts-dejavu
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-fonts/drift-fonts_1.0.0_all.deb
-Size: 606
-SHA256: ffdeec12f7f2722b3d610f64633f6dfb3c90a47654ac8690617ed5f70774ece0
-SHA1: b314335c1b4186f44eaef26375191765992ebc2d
-MD5sum: fa7400bef6124f169754d680fccf6c30
+Filename: pool/main/d/drift-fonts/drift-fonts_1.0.1_all.deb
+Size: 602
+SHA256: 9c95f63c77e48b3ed5fdf0a1e48c2f4fb8c16a189d482f1b43841347ca581e42
+SHA1: 51f9554d2c91d98023d5c2b0a2fa7037aad7b9c7
+MD5sum: 20a692aafea1c68769cf023520f052c2
 Description: Meta-packet for DRIFT fonts environment.
  This package installs the dependencies required for the 
  DRIFT fonts configuration.
@@ -143,17 +143,17 @@ Description: Meta-packet for DRIFT meta-all environment.
  DRIFT meta-all configuration.
 
 Package: drift-multimedia
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: ffmpeg,vlc,nomacs,geeqie,qpdf
+Depends: ffmpeg,vlc,nomacs,qpdf
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-multimedia/drift-multimedia_1.0.0_all.deb
-Size: 602
-SHA256: c481f7c6646e5268549332866bcd4954f33355a5b099ce8dc05cddae1adc7dc4
-SHA1: dec160e29400a67b6dfbfe84ef1f3d2960320c32
-MD5sum: d063230847c70a9256601d249b8d5968
+Filename: pool/main/d/drift-multimedia/drift-multimedia_1.0.1_all.deb
+Size: 598
+SHA256: 50d73fdcfa9c88c7235caa42b4a9e9cec83faf1b4b064d3c81e632b2bf50919a
+SHA1: 8ab18298d5cd6b8745eb2af2cbbc7c8d6a9ed9ed
+MD5sum: ec6d1baf64542e2ada7d18c8afd751ed
 Description: Meta-packet for DRIFT multimedia environment.
  This package installs the dependencies required for the 
  DRIFT multimedia configuration.
