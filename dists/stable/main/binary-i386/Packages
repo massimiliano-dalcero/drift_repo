@@ -1,3 +1,17 @@
+Package: drift-archivers
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: zip,unzip,7zip,rar,unrar
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-archivers/drift-archivers_1.0.0_all.deb
+Size: 544
+SHA256: 1e8770790fe24c4074996eaa255ea2701682669cf6e487b9e73ca3246aed4486
+SHA1: d9615941656650897d16c35e1d03e42e9b25be97
+MD5sum: e22d10fb66fe25285f7e6e7e607d87cf
+Description: Meta-packet for DRIFT archives utilities
+
 Package: drift-audio
 Version: 1.0.0
 Architecture: all
