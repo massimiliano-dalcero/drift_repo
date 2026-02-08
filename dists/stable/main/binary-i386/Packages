@@ -175,33 +175,33 @@ Description: Meta-packet for DRIFT multimedia environment.
  DRIFT multimedia configuration.
 
 Package: drift-network
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: network-manager,openssl,dnsutils,whois,tor,traceroute,ssh
+Depends: network-manager,openssl,dnsutils,whois,tor,traceroute,ssh,iptables
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-network/drift-network_1.0.1_all.deb
-Size: 718
-SHA256: dbddae619067a08b8b84e57a5275041884ceba2c8e1246a72ae32030ebad7dcd
-SHA1: a8e8555bf0d6741e9f292304b90c4075b2258c64
-MD5sum: 0bfaedb7b2dcab7377b75f5421a82e21
+Filename: pool/main/d/drift-network/drift-network_1.0.2_all.deb
+Size: 728
+SHA256: 36576273d7c68ebccbe0beffe7f818735190c4c812c893d10928ba2fbfa78b1c
+SHA1: 42809787d7c4dd7384e557b3481342b3ca3420d4
+MD5sum: abff4e3596065097f1c509d762e82cf0
 Description: Meta-packet for DRIFT network environment.
  This package installs the dependencies required for the 
  DRIFT network configuration.
 
 Package: drift-network-utility
-Version: 1.0.0
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: curl,wget,filezilla,firefox,tcpdump,wireshark,mitmproxy
+Depends: curl,wget,filezilla,firefox,tcpdump,wireshark,mitmproxy,nmap,sshfs,inetutils-telnet
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-network-utility/drift-network-utility_1.0.0_all.deb
-Size: 626
-SHA256: db1d29d4ea75d2f17f15187581c88b7dfef6b02783d5ab7371b7ffc6ca734a70
-SHA1: 0345c7d81782b92e6634097942fea184ad08f524
-MD5sum: 375fcb5c42da45f8bf09271ea3362dbb
+Filename: pool/main/d/drift-network-utility/drift-network-utility_1.0.2_all.deb
+Size: 646
+SHA256: 65fe9719ea15ca9ba935db76ef72337f3111f583d68aafee61bd410fc4ce91f7
+SHA1: 795b9a77f85a0fa64bf6257b1173731d5adfc48a
+MD5sum: 104f807e658b08452ed8be650174e0f5
 Description: Meta-packet for DRIFT network-utility environment.
  This package installs the dependencies required for the 
  DRIFT network-utility configuration.
