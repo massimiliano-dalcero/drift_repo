@@ -157,17 +157,17 @@ Description: Meta-packet for DRIFT vmware hypervisor environment.
  DRIFT vmware hypervisor configuration.
 
 Package: drift-meta-all
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: drift-core, drift-audio, drift-desktop-core, drift-fonts, drift-theme, drift-utility, drift-xfce, drift-desktop, drift-network-utility, drift-network, drift-multimedia, drift-dev, drift-forensics, drift-storage-fs, drift-storage-utility
+Depends: drift-core, drift-audio, drift-desktop-core, drift-fonts, drift-theme, drift-utility, drift-xfce, drift-desktop, drift-network-utility, drift-network, drift-multimedia, drift-dev, drift-forensics, drift-storage-fs, drift-storage-utility, drift-archivers
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-meta-all/drift-meta-all_1.0.1_all.deb
-Size: 664
-SHA256: 2f81ed1fe9b181054a6a44f53cc340a9e63dc6802823430f15c240dfe32b0c19
-SHA1: a55a56c0ba121a8fd37cf6e30a5cc5a52907b670
-MD5sum: 2ec6bda0930193ae4ac21d84f36607a8
+Filename: pool/main/d/drift-meta-all/drift-meta-all_1.0.2_all.deb
+Size: 666
+SHA256: f9b0ec6630547add43ddeaa3bcc89139350b60d2a6dd4a5c31a976a746ca00b2
+SHA1: cf126070d4d409c1cc0341e3e4a9820b94a4b6a0
+MD5sum: bed0edd881678a42d81196b85e129354
 Description: Meta-packet for DRIFT meta-all environment.
  This package installs the dependencies required for the 
  DRIFT meta-all configuration.
