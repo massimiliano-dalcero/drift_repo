@@ -215,17 +215,17 @@ Description: Meta-packet for DRIFT multimedia environment.
  DRIFT multimedia configuration.
 
 Package: drift-network
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
 Depends: network-manager,openssl,dnsutils,whois,tor,traceroute,ssh,iptables
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-network/drift-network_1.0.2_all.deb
-Size: 728
-SHA256: 36576273d7c68ebccbe0beffe7f818735190c4c812c893d10928ba2fbfa78b1c
-SHA1: 42809787d7c4dd7384e557b3481342b3ca3420d4
-MD5sum: abff4e3596065097f1c509d762e82cf0
+Filename: pool/main/d/drift-network/drift-network_1.0.3_all.deb
+Size: 724
+SHA256: dd47192c22d36f08520e89dbca08f856f193d96829b821dc239b6e1c99723c88
+SHA1: c7ad81ad9fbe21e92c51c56132783307f9d612b3
+MD5sum: 7499b2f98e6bbb3a647c5cf29ad59fdd
 Description: Meta-packet for DRIFT network environment.
  This package installs the dependencies required for the 
  DRIFT network configuration.
