@@ -150,34 +150,50 @@ Description: Meta-packet for DRIFT forensics environment.
  This package installs the dependencies required for the 
  DRIFT forensics configuration.
 
-Package: drift-hypervisor
+Package: drift-hypervisor-virtualbox
 Version: 1.0.0
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: virtualbox-guest-x11
+Depends: virtualbox-guest-utils, virtualbox-guest-x11
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-hypervisor/drift-hypervisor_1.0.0_all.deb
-Size: 596
-SHA256: 7655e98bb5ee2c44d5e7eb38fc131cbf64266f3ceac978d4f839faab17c8d004
-SHA1: b6edac01704b6e78f6b92ec4934a278118e79e76
-MD5sum: 673e244cf699883b00d1505affe7ae6a
-Description: Meta-packet for DRIFT hypervisor environment.
+Filename: pool/main/d/drift-hypervisor-virtualbox/drift-hypervisor-virtualbox_1.0.0_all.deb
+Size: 610
+SHA256: d0a06f4e3637365c17869175caf04e023260f6fe57d0beb5e6a562afc8e26d42
+SHA1: 614eee564965f73e1ef52f7e0de326831f4a2179
+MD5sum: 05402bc439e09446d2dc2c32003e49fd
+Description: Meta-packet for DRIFT virtualbox hypervisor environment.
  This package installs the dependencies required for the 
- DRIFT hypervisor configuration.
+ DRIFT virtualbox hypervisor configuration.
+
+Package: drift-hypervisor-vmware
+Version: 1.0.0
+Architecture: all
+Maintainer: DRIFT Admin <drift@driftlinux.com>
+Depends: open-vm-tools-desktop, xserver-xorg-video-vmware
+Priority: optional
+Section: misc
+Filename: pool/main/d/drift-hypervisor-vmware/drift-hypervisor-vmware_1.0.0_all.deb
+Size: 618
+SHA256: e6653a965719940a8fd6efd2821ad46694d53159ddd8890023a2dd9d35db7a3e
+SHA1: 54d4478d4425b4e0ebc1ae68bdeb41592875a5eb
+MD5sum: 31fb6f0f06c646862347ef7ab284471d
+Description: Meta-packet for DRIFT vmware hypervisor environment.
+ This package installs the dependencies required for the 
+ DRIFT vmware hypervisor configuration.
 
 Package: drift-meta-all
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: drift-core, drift-audio, drift-desktop-core, drift-fonts, drift-theme, drift-utility, drift-xfce, drift-desktop, drift-network-utility, drift-network, drift-multimedia, drift-dev, drift-forensics, drift-hypervisor, drift-storage-fs, drift-storage-utility
+Depends: drift-core, drift-audio, drift-desktop-core, drift-fonts, drift-theme, drift-utility, drift-xfce, drift-desktop, drift-network-utility, drift-network, drift-multimedia, drift-dev, drift-forensics, drift-storage-fs, drift-storage-utility
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-meta-all/drift-meta-all_1.0.0_all.deb
-Size: 674
-SHA256: 468e2c5d1a3e3b884ac87477e105730c73f040b62369c5ce659be6d5fa115f99
-SHA1: b346fce20551d0ca03ccfdbf733b729b04c4d7af
-MD5sum: d6b7bb2a6733111137de3e10607f8da0
+Filename: pool/main/d/drift-meta-all/drift-meta-all_1.0.1_all.deb
+Size: 664
+SHA256: 2f81ed1fe9b181054a6a44f53cc340a9e63dc6802823430f15c240dfe32b0c19
+SHA1: a55a56c0ba121a8fd37cf6e30a5cc5a52907b670
+MD5sum: 2ec6bda0930193ae4ac21d84f36607a8
 Description: Meta-packet for DRIFT meta-all environment.
  This package installs the dependencies required for the 
  DRIFT meta-all configuration.
