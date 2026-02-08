@@ -74,17 +74,17 @@ Description: Meta-packet for DRIFT desktop environment.
  DRIFT desktop configuration.
 
 Package: drift-desktop-core
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: xorg,xserver-xorg-video-all,lightdm,lightdm-gtk-greeter,lightdm-gtk-greeter-settings,librsvg2-common,dconf-cli
+Depends: xorg,xserver-xorg-video-all,lightdm,lightdm-gtk-greeter,lightdm-gtk-greeter-settings,librsvg2-common,dconf-cli,xdg-utils
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-desktop-core/drift-desktop-core_1.0.1_all.deb
-Size: 644
-SHA256: 18fec5c2aa2ee88f5db0299ea741f3a8c74798b5d7a03011faf05c3f36a4a04a
-SHA1: 51c7ee9845948d30cb2bec58e1d480f4632dd7ad
-MD5sum: 5a058f2b9cc7e69479e2bb58476438c8
+Filename: pool/main/d/drift-desktop-core/drift-desktop-core_1.0.2_all.deb
+Size: 648
+SHA256: c42158cb80c0b974e3ade9efcbf3f9133931d4f285a59751b4e760e9afc29803
+SHA1: 5d44db86c0ca4ff46652f350fdc950d9851b91f5
+MD5sum: ad2d6ed09721a9be57218097eb7c4d95
 Description: Meta-packet for DRIFT desktop-core environment.
  This package installs the dependencies required for the 
  DRIFT desktop-core configuration.
@@ -215,17 +215,17 @@ Description: Meta-packet for DRIFT multimedia environment.
  DRIFT multimedia configuration.
 
 Package: drift-network
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: network-manager,openssl,dnsutils,whois,tor,traceroute
+Depends: network-manager,openssl,dnsutils,whois,tor,traceroute,ssh
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-network/drift-network_1.0.0_all.deb
-Size: 612
-SHA256: 9d0f0a46cfe9688b1cb900275d57a3d80d373db4ff52879276f63e0b4d1d0c3a
-SHA1: 059590b30d996a8d92dc867f3fa504a4364b1073
-MD5sum: 20a16685e45b8965631264350179dee0
+Filename: pool/main/d/drift-network/drift-network_1.0.1_all.deb
+Size: 718
+SHA256: dbddae619067a08b8b84e57a5275041884ceba2c8e1246a72ae32030ebad7dcd
+SHA1: a8e8555bf0d6741e9f292304b90c4075b2258c64
+MD5sum: 0bfaedb7b2dcab7377b75f5421a82e21
 Description: Meta-packet for DRIFT network environment.
  This package installs the dependencies required for the 
  DRIFT network configuration.
