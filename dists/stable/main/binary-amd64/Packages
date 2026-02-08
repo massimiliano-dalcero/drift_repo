@@ -213,17 +213,17 @@ Description: Meta-packet for DRIFT meta-all environment.
  DRIFT meta-all configuration.
 
 Package: drift-multimedia
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: ffmpeg,vlc,nomacs,qpdf
+Depends: ffmpeg,vlc,eom,qpdf,evince
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-multimedia/drift-multimedia_1.0.1_all.deb
-Size: 598
-SHA256: 50d73fdcfa9c88c7235caa42b4a9e9cec83faf1b4b064d3c81e632b2bf50919a
-SHA1: 8ab18298d5cd6b8745eb2af2cbbc7c8d6a9ed9ed
-MD5sum: ec6d1baf64542e2ada7d18c8afd751ed
+Filename: pool/main/d/drift-multimedia/drift-multimedia_1.0.2_all.deb
+Size: 600
+SHA256: 204778d2c35c0b9f93347cc1a154d4a9effaa43858ae1fb6737dc2027391e551
+SHA1: 9714bc708e21bffa45f4341e71c3a25d19ee9e3a
+MD5sum: fa81aef6cbd7375b107fc42eead7b4ca
 Description: Meta-packet for DRIFT multimedia environment.
  This package installs the dependencies required for the 
  DRIFT multimedia configuration.
