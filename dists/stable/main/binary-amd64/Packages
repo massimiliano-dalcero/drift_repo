@@ -196,6 +196,20 @@ Description: Meta-packet for DRIFT vmware hypervisor environment.
  This package installs the dependencies required for the 
  DRIFT vmware hypervisor configuration.
 
+Package: drift-installer-calamares
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Drift <drift@driftlinux.com>
+Depends: calamares,calamares-settings-ubuntu-common
+Priority: optional
+Section: utils
+Filename: pool/main/d/drift-installer-calamares/drift-installer-calamares_1.0.0_amd64.deb
+Size: 848
+SHA256: 1d0160b652c883ab3d10f700d6159b582b66ce6f02f70a3980e53ab3d7379898
+SHA1: 10f1d49f4ec59375b3290a2e0258736f5d38e6b3
+MD5sum: efbd33f35b7f873d5f7f677f1bd2360d
+Description: Calamares Installer for DRIFT Linux
+
 Package: drift-meta-all
 Version: 1.0.2
 Architecture: all
