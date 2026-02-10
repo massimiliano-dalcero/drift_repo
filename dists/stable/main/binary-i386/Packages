@@ -221,17 +221,17 @@ Description: Meta-packet for DRIFT network-utility environment.
  DRIFT network-utility configuration.
 
 Package: drift-storage-fs
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: ntfs-3g,exfatprogs,hfsprogs,hfsplus,lvm2,mdadm,cryptsetup,cryptsetup-bin,dislocker,libbde-utils
+Depends: ntfs-3g,exfatprogs,hfsprogs,hfsplus,lvm2,mdadm,cryptsetup,cryptsetup-bin,dislocker,libbde-utils, dosfstools
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-storage-fs/drift-storage-fs_1.0.0_all.deb
-Size: 640
-SHA256: 4a455209dfa20a3eba40adb05ff0898ff2cde91f9f699b61cbb4da2ae14aa0d9
-SHA1: 14a4ab0ace8f1db689361517cedd96e49b73e8ee
-MD5sum: 1c093da6fcb447bba4e5e9f1dec4c046
+Filename: pool/main/d/drift-storage-fs/drift-storage-fs_1.0.1_all.deb
+Size: 646
+SHA256: a6089494f723f4046d61fb8d6098e1060e99f4a8b0bae8c2235b51ac4c692315
+SHA1: 8996a81a1b63507ea7fbbfe80fc1635392db214d
+MD5sum: 53fe915fcc347286d297ba77ae4c32ba
 Description: Meta-packet for DRIFT storage-fs environment.
  This package installs the dependencies required for the 
  DRIFT storage-fs configuration.
