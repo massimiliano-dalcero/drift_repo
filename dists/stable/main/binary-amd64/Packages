@@ -72,17 +72,17 @@ Description: Meta-packet for DRIFT core environment.
  DRIFT core configuration.
 
 Package: drift-desktop
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: network-manager-gnome,arandr,plymouth-theme-spinner,gvfs,gvfs-backends,gvfs-fuse
+Depends: network-manager-gnome,arandr,plymouth-theme-spinner,gvfs,gvfs-backends,gvfs-fuse,mozo
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-desktop/drift-desktop_1.0.0_all.deb
-Size: 630
-SHA256: 6a0231b198519cb4f6e6f9d2c84a062b37df33747ff60f534da150368b748ed0
-SHA1: 540a9d6bd807d1a9f52c6144b6111b4796ebdb03
-MD5sum: 70b39ce96317a6496365860f99db021b
+Filename: pool/main/d/drift-desktop/drift-desktop_1.0.1_all.deb
+Size: 638
+SHA256: ba56647f5950d8ea06d862a53013b00e331e9219bd9d0d772b4019824c3fdf09
+SHA1: 3a5dc1f45f3673c0609ae3f2053c16fd1d6a7aaa
+MD5sum: fcba7e9bb8214e83512afba41279517c
 Description: Meta-packet for DRIFT desktop environment.
  This package installs the dependencies required for the 
  DRIFT desktop configuration.
@@ -149,17 +149,17 @@ Description: Meta-packet for DRIFT fonts environment.
  DRIFT fonts configuration.
 
 Package: drift-forensics
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: guymager,xmount,ewf-tools,gddrescue,ddrutility,sleuthkit,libimage-exiftool-perl,python3-opentimestamps
+Depends: guymager,xmount,ewf-tools,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-forensics/drift-forensics_1.0.0_all.deb
-Size: 652
-SHA256: b69ba6340e0d23ce0024a6b4cb84458f9d218663c1b468e4cbdbee91116f8ce6
-SHA1: 5ba110bfb99d3bb1e2dff835f511ea289fb64bd3
-MD5sum: bd5648c7bb698d32740407d6a6745e5a
+Filename: pool/main/d/drift-forensics/drift-forensics_1.0.1_all.deb
+Size: 658
+SHA256: 969a0aa423e3d63b11f9c11cc1c53c8c2d8312a620d910e9e9f23ce9c023b104
+SHA1: a874b84adb224a23dc097b1fec0d0f8f26d625d0
+MD5sum: a2aaa441004e9827b5c8f8cde3d5db25
 Description: Meta-packet for DRIFT forensics environment.
  This package installs the dependencies required for the 
  DRIFT forensics configuration.
