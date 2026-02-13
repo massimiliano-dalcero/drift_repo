@@ -375,6 +375,27 @@ Maintainer: Anton Filimonov <anton.filimonov@gmail.com>
 Version: 24.11.0.1685
 Installed-Size: 34718
 
+Package: libewf2
+Version: 1:20240506-1
+Architecture: amd64
+Maintainer: drift-builder
+Provides: libewf-dev, ewf-tools, python3-libewf, libewf
+Conflicts: libewf-dev, ewf-tools, libewf
+Replaces: libewf-dev, ewf-tools, libewf
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libewf2/libewf2_20240506-1_amd64.deb
+Size: 5462924
+SHA256: ae2e802f3c6bcb2abcde4be8b41b17fb968374697e59d3991ba3ab0b7b083760
+SHA1: 8640879729daefb0a3fb34d6bc6358c759765310
+MD5sum: 961da49983f5ef47728c6ffc9a02f4ff
+Description: Libewf 20240506 (Monolithic Drift Build)
+ This package is the official libewf2 but extended to include EVERYTHING:
+ development headers (libewf-dev), CLI tools (ewf-tools) and Python 3 bindings.
+ .
+ Installing this single package satisfies dependencies for Plaso, Sleuthkit
+ and generic forensic usage.
+
 Package: msedit
 Version: 1.2.0
 Architecture: amd64
