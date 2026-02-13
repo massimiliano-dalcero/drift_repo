@@ -11,6 +11,26 @@ SHA1: de3a4368d0a55c863c2aa60eb2601af704e4af55
 MD5sum: e16dbbf97d0bae53df1451b82f36ebd5
 Description: Tool library for analyzing binary blobs and executable code
 
+Package: bulk-extractor
+Version: 2.1.1
+Architecture: amd64
+Maintainer: drift-user
+Depends: libc6, libgcc-s1, libstdc++6, libewf2 (>= 20140000), libssl3, libexpat1
+Priority: optional
+Section: forensics
+Filename: pool/main/b/bulk-extractor/bulk-extractor_2.1.1_amd64.deb
+Size: 10551982
+SHA256: 7c5823d2bef47e1f127c9fb4ff732240c4322be657386cf0b17ab123ac15face
+SHA1: 443cd29acef5284414073ea809f480a4aadf5764
+MD5sum: 9b4241d4039625634e1fb9e268f31ee8
+Description: Bulk Email and URL extraction tool
+ bulk_extractor scans a disk image, a file, or a directory of files and
+ extracts useful information without parsing the file system or file system
+ structures. The results are stored in feature files that can be easily
+ inspected, parsed, or processed with automated tools.
+ .
+ Built with support for E01 (libewf).
+
 Package: drift-archivers
 Version: 1.0.1
 Architecture: all
@@ -149,17 +169,17 @@ Description: Meta-packet for DRIFT fonts environment.
  DRIFT fonts configuration.
 
 Package: drift-forensics
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: guymager,xmount,ewf-tools,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps
+Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,libewf2,bulk-extractor
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-forensics/drift-forensics_1.0.1_all.deb
-Size: 658
-SHA256: 969a0aa423e3d63b11f9c11cc1c53c8c2d8312a620d910e9e9f23ce9c023b104
-SHA1: a874b84adb224a23dc097b1fec0d0f8f26d625d0
-MD5sum: a2aaa441004e9827b5c8f8cde3d5db25
+Filename: pool/main/d/drift-forensics/drift-forensics_1.0.2_all.deb
+Size: 668
+SHA256: 5eb6da0ca8ed51f5bd85aec52cc4f894d6a1c7ad1729a8f3f72176219f41ed53
+SHA1: ca0aa30bf8898f8f186c8b19f1bc214b2193e92a
+MD5sum: 41a043d632923273980daa0bf3d03b3a
 Description: Meta-packet for DRIFT forensics environment.
  This package installs the dependencies required for the 
  DRIFT forensics configuration.
