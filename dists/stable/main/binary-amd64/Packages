@@ -169,17 +169,17 @@ Description: Meta-packet for DRIFT fonts environment.
  DRIFT fonts configuration.
 
 Package: drift-forensics
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,libewf2,bulk-extractor
+Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,libewf2,bulk-extractor,testdisk,scalpel,foremost
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-forensics/drift-forensics_1.0.2_all.deb
-Size: 668
-SHA256: 5eb6da0ca8ed51f5bd85aec52cc4f894d6a1c7ad1729a8f3f72176219f41ed53
-SHA1: ca0aa30bf8898f8f186c8b19f1bc214b2193e92a
-MD5sum: 41a043d632923273980daa0bf3d03b3a
+Filename: pool/main/d/drift-forensics/drift-forensics_1.0.3_all.deb
+Size: 680
+SHA256: dd24dd40605f986030366ae1d0599cb1b3b427c3f9fe9eb58ba1bbd9a6070ac7
+SHA1: de7b0a8ef71e6fcfe09abfe41d068afd66fab7b4
+MD5sum: fac86194c346b23003e8a30919698446
 Description: Meta-packet for DRIFT forensics environment.
  This package installs the dependencies required for the 
  DRIFT forensics configuration.
@@ -373,6 +373,19 @@ MD5sum: de091ba1a2aac80d5141459fd8003c52
 Description: Meta-packet for DRIFT xfce environment.
  This package installs the dependencies required for the 
  DRIFT xfce configuration.
+
+Package: ftkimager
+Version: 3.1.1
+Architecture: amd64
+Maintainer: Drift <drift@driftlinux.com>
+Priority: optional
+Section: forensics
+Filename: pool/main/f/ftkimager/ftkimager_3.1.1_amd64.deb
+Size: 2482768
+SHA256: d64120eba37565ab8279412f87b152e51edd0c82061189370a110dde96caf722
+SHA1: de23c42e720f71538d918b5a579211b1bcc633ed
+MD5sum: 204eb75a76876f95ca264e95ce1463b7
+Description: AccessData FTK Imager cli version for Linux (v3.1.1 - 2012) 
 
 Package: klogg
 Architecture: amd64
