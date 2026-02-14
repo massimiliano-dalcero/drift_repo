@@ -93,17 +93,17 @@ Description: Meta-packet for DRIFT core environment.
  DRIFT core configuration.
 
 Package: drift-desktop
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: network-manager-gnome,arandr,plymouth-theme-spinner,gvfs,gvfs-backends,gvfs-fuse,mozo
+Depends: network-manager-gnome,arandr,plymouth-theme-spinner,gvfs,gvfs-backends,gvfs-fuse
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-desktop/drift-desktop_1.0.1_all.deb
-Size: 638
-SHA256: ba56647f5950d8ea06d862a53013b00e331e9219bd9d0d772b4019824c3fdf09
-SHA1: 3a5dc1f45f3673c0609ae3f2053c16fd1d6a7aaa
-MD5sum: fcba7e9bb8214e83512afba41279517c
+Filename: pool/main/d/drift-desktop/drift-desktop_1.0.2_all.deb
+Size: 632
+SHA256: 3bc03b5b5f0fd954247cc16359fb158fd557098cea6d167c6d7a5120aebb6af9
+SHA1: 8064b436289f53619172ca5f8a03eea8e78d5e88
+MD5sum: 2bcbafcb2f0f79ae7123e6b89ee89dd5
 Description: Meta-packet for DRIFT desktop environment.
  This package installs the dependencies required for the 
  DRIFT desktop configuration.
@@ -154,17 +154,17 @@ MD5sum: 184272eaf98326c80b7579197e91dcfa
 Description: Secure Block device for forensics use
 
 Package: drift-fonts
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: fonts-ubuntu,fonts-liberation,fonts-dejavu
+Depends: fonts-ubuntu,fonts-liberation,fonts-dejavu,fonts-noto-color-emoji
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-fonts/drift-fonts_1.0.1_all.deb
-Size: 602
-SHA256: 9c95f63c77e48b3ed5fdf0a1e48c2f4fb8c16a189d482f1b43841347ca581e42
-SHA1: 51f9554d2c91d98023d5c2b0a2fa7037aad7b9c7
-MD5sum: 20a692aafea1c68769cf023520f052c2
+Filename: pool/main/d/drift-fonts/drift-fonts_1.0.2_all.deb
+Size: 664
+SHA256: 41099032030b5d79960c3f572205b4a60853f20bebfc547232f4cd3f592b394d
+SHA1: 903ec7ba21b10dcb7c6c5db1a3900fcd1360771f
+MD5sum: 5dc9ae2e4a64b5160658f5e041e8d9c2
 Description: Meta-packet for DRIFT fonts environment.
  This package installs the dependencies required for the 
  DRIFT fonts configuration.
