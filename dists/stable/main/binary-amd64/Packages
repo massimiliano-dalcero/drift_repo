@@ -141,16 +141,16 @@ Description: Meta-packet for DRIFT dev environment.
  DRIFT dev configuration.
 
 Package: drift-devsec
-Version: 1.0.3
+Version: 1.0.4
 Architecture: amd64
 Maintainer: Drift <drift@driftlinux.com>
 Priority: optional
 Section: utils
-Filename: pool/main/d/drift-devsec/drift-devsec_1.0.3_amd64.deb
-Size: 3454
-SHA256: a312f6ded55e81c5dab2fa83544a8b3ecedab6377f10e27965743edc0a6a7845
-SHA1: bb550457a0401e7ec7428ebae98afc6c7e028d21
-MD5sum: a04c4a52fc206df57e5f4ed54eadc58c
+Filename: pool/main/d/drift-devsec/drift-devsec_1.0.4_amd64.deb
+Size: 3600
+SHA256: f2baabe3ea4bfa8a8aade77425d2292c868dc9ec1c83ad2913c9b199174ea190
+SHA1: b678c3f5c927e4b85c64d93e035095f267773a9f
+MD5sum: 5302acb998f8d6dca2bf41c3df402d68
 Description: Secure Block device for forensics use
 
 Package: drift-fonts
