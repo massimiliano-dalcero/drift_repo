@@ -62,17 +62,17 @@ Description: Meta-packet for DRIFT audio environment.
  DRIFT audio configuration.
 
 Package: drift-base-files
-Version: 1.0.5
+Version: 1.0.6
 Architecture: amd64
 Depends: zstd
 Maintainer: Drift <drift@driftlinux.com>
 Priority: optional
 Section: utils
-Filename: pool/main/d/drift-base-files/drift-base-files_1.0.5_amd64.deb
-Size: 11230
-SHA256: 07f9071d140f7bb591af3bf64ca344b341d252f83a1e3678eada33912af8634b
-SHA1: 70fdc0d7d3ab46043b256dca259acc8cb4b13f38
-MD5sum: 8eb6d9f2ff9d4b3e56d5a8cba2a94753
+Filename: pool/main/d/drift-base-files/drift-base-files_1.0.6_amd64.deb
+Size: 13522
+SHA256: ef5f6e1f59eff03ea1e87063f1ebd74126e9053719cc97f4da15306ae135eeca
+SHA1: fc4bb83f60f065da13d18fcd3d3dece0e76f9563
+MD5sum: 6ee61d842a432434d51a6ed66c43cd2f
 Description: File di base di drift linux 1.0
  Questo pacchetto installa i file direttamente in /etc, /usr e nelle altre directory di sistema.
 
