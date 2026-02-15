@@ -109,17 +109,17 @@ Description: Meta-packet for DRIFT fonts environment.
  DRIFT fonts configuration.
 
 Package: drift-forensics
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,ftkimager,libewf2,libewf-legacy,bulk-extractor,testdisk,scalpel,foremost
+Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,ftkimager,libewf,libewf2,bulk-extractor,testdisk,scalpel,foremost
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-forensics/drift-forensics_1.0.6_all.deb
-Size: 696
-SHA256: fd6552d9bf0d4d2c8c71445c972255046f0751d679c2616bc44c64e4b1bae7dd
-SHA1: 62879cba116319622cb844354ad269591b1826b6
-MD5sum: c977cedd55d9e67664054b6b46a09caa
+Filename: pool/main/d/drift-forensics/drift-forensics_1.0.7_all.deb
+Size: 690
+SHA256: 2f21a00c622afee84ea29e0e6f247133a24a24cc011e76d4bbe421c5557e9864
+SHA1: 8be6c7024ce261f91421b5831d41302934d33c96
+MD5sum: 6b2cd1aae9b515540c8583e133fd8644
 Description: Meta-packet for DRIFT forensics environment.
  This package installs the dependencies required for the 
  DRIFT forensics configuration.

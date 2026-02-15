@@ -170,17 +170,17 @@ Description: Meta-packet for DRIFT fonts environment.
  DRIFT fonts configuration.
 
 Package: drift-forensics
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,ftkimager,libewf2,libewf-legacy,bulk-extractor,testdisk,scalpel,foremost
+Depends: guymager,xmount,gddrescue,ddrutility,dc3dd,sleuthkit,libimage-exiftool-perl,python3-opentimestamps,ftkimager,libewf,libewf2,bulk-extractor,testdisk,scalpel,foremost
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-forensics/drift-forensics_1.0.6_all.deb
-Size: 696
-SHA256: fd6552d9bf0d4d2c8c71445c972255046f0751d679c2616bc44c64e4b1bae7dd
-SHA1: 62879cba116319622cb844354ad269591b1826b6
-MD5sum: c977cedd55d9e67664054b6b46a09caa
+Filename: pool/main/d/drift-forensics/drift-forensics_1.0.7_all.deb
+Size: 690
+SHA256: 2f21a00c622afee84ea29e0e6f247133a24a24cc011e76d4bbe421c5557e9864
+SHA1: 8be6c7024ce261f91421b5831d41302934d33c96
+MD5sum: 6b2cd1aae9b515540c8583e133fd8644
 Description: Meta-packet for DRIFT forensics environment.
  This package installs the dependencies required for the 
  DRIFT forensics configuration.
@@ -408,6 +408,62 @@ Homepage: http://github.com/variar/klogg
 Maintainer: Anton Filimonov <anton.filimonov@gmail.com>
 Version: 24.11.0.1685
 Installed-Size: 34718
+
+Package: libewf
+Version: 1:20240506-1
+Architecture: amd64
+Maintainer: drift-builder
+Provides: libewf-dev, ewf-tools, python3-libewf
+Replaces: libewf-dev, ewf-tools, libewf, python3-libewf
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libewf/libewf_20240506-1_amd64.deb
+Size: 5462910
+SHA256: 908f152341536e6a5128c3c8b9ddfcc8988ffae3dbd704e08389ca5bfc99978a
+SHA1: 70afb31272f5e33cbb90cce7bd2c0f7201658f30
+MD5sum: 09f5c67107d7e9b12da4d4788d3047f1
+Description: Libewf 20240506 (Monolithic Drift Build)
+ This package is the official libewf2 but extended to include EVERYTHING:
+ development headers (libewf-dev), CLI tools (ewf-tools) and Python 3 bindings.
+ .
+ Installing this single package satisfies dependencies for Plaso, Sleuthkit
+ and generic forensic usage.
+
+Package: libewf-legacy
+Version: 1:20140816-1
+Architecture: amd64
+Maintainer: drift-builder
+Provides: libewf-legacy
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libewf-legacy/libewf-legacy_20140816-1_amd64.deb
+Size: 1333180
+SHA256: 27de8a4a484f6bf8df976e9734e4910b764a54c04fc1b7578e272138d734a6b6
+SHA1: 500fb3e240c9461e24c5e4150dc28c6e0a776c9f
+MD5sum: 400cecea4313f93bbefbf09803b7ac01
+Description: Libewf Legacy 20140816 (only lib libewf.so.2)
+ This package is the official libewf legacy 2014
+
+Package: libewf2
+Version: 1:20240506-1
+Architecture: amd64
+Maintainer: drift-builder
+Provides: libewf-dev, ewf-tools, python3-libewf, libewf
+Conflicts: libewf-dev, ewf-tools, libewf
+Replaces: libewf-dev, ewf-tools, libewf
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libewf2/libewf2_20240506-1_amd64.deb
+Size: 5462924
+SHA256: ae2e802f3c6bcb2abcde4be8b41b17fb968374697e59d3991ba3ab0b7b083760
+SHA1: 8640879729daefb0a3fb34d6bc6358c759765310
+MD5sum: 961da49983f5ef47728c6ffc9a02f4ff
+Description: Libewf 20240506 (Monolithic Drift Build)
+ This package is the official libewf2 but extended to include EVERYTHING:
+ development headers (libewf-dev), CLI tools (ewf-tools) and Python 3 bindings.
+ .
+ Installing this single package satisfies dependencies for Plaso, Sleuthkit
+ and generic forensic usage.
 
 Package: msedit
 Version: 1.2.0
