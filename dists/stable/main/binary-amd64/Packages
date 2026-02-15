@@ -62,17 +62,17 @@ Description: Meta-packet for DRIFT audio environment.
  DRIFT audio configuration.
 
 Package: drift-base-files
-Version: 1.0.10
+Version: 1.0.11
 Architecture: amd64
 Depends: zstd
 Maintainer: Drift <drift@driftlinux.com>
 Priority: optional
 Section: utils
-Filename: pool/main/d/drift-base-files/drift-base-files_1.0.10_amd64.deb
-Size: 15234
-SHA256: 8e52b11f5ec8af6ae2c87fac07238185d71f610cefcb3001d72e49afe98402a0
-SHA1: 6dfb83ec1ed5da00f97f4c2215390f3279caf437
-MD5sum: 0ab1dcca0cb023923a32456e653b75f9
+Filename: pool/main/d/drift-base-files/drift-base-files_1.0.11_amd64.deb
+Size: 15282
+SHA256: 835578a3dd54a7a8ff917dd694a0f756ae88a79a55d3112414eefc7103de3766
+SHA1: f77faafe5abe8a873c15321b25ab8d8489f7f32d
+MD5sum: f11700c1898a602a917c9c9038a2b74d
 Description: File di base di drift linux 1.0
  Questo pacchetto installa i file direttamente in /etc, /usr e nelle altre directory di sistema.
 
@@ -141,16 +141,16 @@ Description: Meta-packet for DRIFT dev environment.
  DRIFT dev configuration.
 
 Package: drift-devsec
-Version: 1.0.13
+Version: 1.0.14
 Architecture: amd64
 Maintainer: Drift <drift@driftlinux.com>
 Priority: optional
 Section: utils
-Filename: pool/main/d/drift-devsec/drift-devsec_1.0.13_amd64.deb
-Size: 5386
-SHA256: 55dbbe4d00c95f2f2b0bcd462df2cca168b214e6124b3c77e120a0bd49361e84
-SHA1: cf418c4100c0238011c2e01d913a9295cb727deb
-MD5sum: bb8f735d935c128107ee511bd4bf46b5
+Filename: pool/main/d/drift-devsec/drift-devsec_1.0.14_amd64.deb
+Size: 5474
+SHA256: fedec8148c7ade5bf0c996a662e0bfc8edc43876620a84946be4ef51294d0210
+SHA1: 52e29a10fa69ae42258191e09e3c2bf3e46c3aa1
+MD5sum: 2600531c26f35709f3d3a41b0b226ed7
 Description: Secure Block device for forensics use
 
 Package: drift-fonts
