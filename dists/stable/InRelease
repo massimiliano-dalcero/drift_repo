@@ -4,13 +4,13 @@ Hash: SHA512
 Origin: DRIFT
 Label: LabRepo
 Codename: stable
-Date: Sat, 14 Feb 2026 23:49:58 UTC
+Date: Sun, 15 Feb 2026 12:40:38 UTC
 Architectures: amd64 i386 arm64
 Components: main
 Description: Repository APT
 MD5Sum:
- 81f9fdf47315a69bf881efb5624390d3 17660 main/binary-amd64/Packages
- ffe74b97e433588588d9ceca7874d2ba 5877 main/binary-amd64/Packages.gz
+ 8a139492cf7f3c7daff2904158724318 16851 main/binary-amd64/Packages
+ 64509fd3ee7e932e71784c165e9c5d71 5569 main/binary-amd64/Packages.gz
  58e7c259c125b8610fb2155cc50b45df 93 main/binary-amd64/Release
  b06d2f0d504086cd124c7f179d7619da 11750 main/binary-i386/Packages
  491b0c9995d637a8dd082686b8619559 3475 main/binary-i386/Packages.gz
@@ -19,8 +19,8 @@ MD5Sum:
  491b0c9995d637a8dd082686b8619559 3475 main/binary-arm64/Packages.gz
  b8bc9ff36b96772688974a4d86c4c1e4 93 main/binary-arm64/Release
 SHA1:
- 221ec4d1a34e5f6f4b92b18a9157d4038ae91bc8 17660 main/binary-amd64/Packages
- e76a036abe677cea0798b2952a94187040c4b657 5877 main/binary-amd64/Packages.gz
+ 05e5986a22068352d7e11da48ee5672e2c4aa2af 16851 main/binary-amd64/Packages
+ 1e7e9c71e7bc5ab64715ad70a379c843337626f7 5569 main/binary-amd64/Packages.gz
  8eebe9fbb6dae685ad5cc7ff767e583ede0d072f 93 main/binary-amd64/Release
  394ab93df186b93c3e6020c85163aa3cfa6755fd 11750 main/binary-i386/Packages
  a533e51d87bf989a3b38d239f868550e4b28a175 3475 main/binary-i386/Packages.gz
@@ -29,8 +29,8 @@ SHA1:
  a533e51d87bf989a3b38d239f868550e4b28a175 3475 main/binary-arm64/Packages.gz
  700ac7c2c6273a5bdbc85be0fbf825b91297a0c0 93 main/binary-arm64/Release
 SHA256:
- e97c854b8c8e88edfa7c9c7493312b8ee463289cf2d2192bcc2dcfd80de007a8 17660 main/binary-amd64/Packages
- 30c040e78d7e686a2d7b47e915713055c461eebb26535e9b22b530f465eb6209 5877 main/binary-amd64/Packages.gz
+ f1059741c6d681ce0941078834dd75c629f8c1ff6a64283cf9c47e6dea8912dd 16851 main/binary-amd64/Packages
+ 730bc224d2a9e55f288c90387e07b988aca36f5c953754175c83dbd1e15e3c5c 5569 main/binary-amd64/Packages.gz
  8530a6c9c998e95b3b6600b299e0d20a27914a56628bc31f3c7017ff4087d0f2 93 main/binary-amd64/Release
  c4691a6cd23cd8fc8329e79300eb4262e9782c8fb1e0807158959392d390e68f 11750 main/binary-i386/Packages
  75c6bce0875065290a27cf4b109d06179d97b0fada6d3bcaf79726cd1686112c 3475 main/binary-i386/Packages.gz
@@ -40,17 +40,17 @@ SHA256:
  d0a9b667745c4a98dddd9511528b8391f2e8bba3427ff3dabcbde31346532aca 93 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE0bFPvHm3Yy06hlO/PfUpjXa8pg4FAmmRCiYACgkQPfUpjXa8
-pg4ZQxAAtu8zWY2jNoi/eMQ9PVHFr9yJaVcYX8yt1uyTD5bmoaKH9vcxUgC9Ph4o
-baeI3NQ3Tmk3h6bZvI86j/icLyv3OHRa6+bxfNjwi82QdzhReDihhoMNNILAB0M+
-5ULZfAsTv5dw79U/KrfPDeo1aePOfM9USjAahVcvrC/Msloo0jKC57jb4CvHSXK2
-B+K/XvTWg5LICE6PHnhUYqtOsfJ93pkVAIhxQyqLPt1MzDc7/ncjzkEDITKvXLs8
-7EVaNV5VHff14HcWdZdZZCpdYCvCXBMeXq00CdMRrHu3TQbpzJ2UWeUrlpIpkxjy
-O1zkX6z26IggF97K29DceOvEtK7guVq0W9FsQak9LPjNcMooBZdYKJKfOToT0AsH
-+93K2vcRZeVaWO+YWpBvgcWSZeajGSKb4xnLabjKGVT7xY8kZzmzTOPleK3XiaQs
-DN2xQYCvJ1kBAaahr82fayH91rRlIRzOT7cbJgWqTMFazm8yHi90qx8AIqsjQToT
-7qLAOvU3HOp/xY0I2NhTB0SfCfthBeSEZAeJF2HTD52c8ARVzZ9vgslfXB0FCkas
-VgewOmiJqvn8ut6b5eO/jSAoESqVjUdQK/dt9IjDKThqsaL6nlc22JNFUY4qmOOg
-sPh/bwhy9dhppWAyGMr60P4tyWMRLAA+hmVCxtIf0Z90Y92UZ4M=
-=bvcb
+iQIzBAEBCgAdFiEE0bFPvHm3Yy06hlO/PfUpjXa8pg4FAmmRvsYACgkQPfUpjXa8
+pg70Tw//Y9U/1tLLhkJuQkkooRrNjxgOCf85k0u2DuUnkHS1akxPHywJK2/nQIbB
+ln12UChv/+rkmOs4IHgkCf0CszZxK+NiiGPF9CyHkhSwYUi4VyoThbOOlV3lFftl
+hwjZvzUbJnb2iIrDYQqOD9Uvww/43qzeSDXQ4PZh3eHLt3/Ty6KkND/nRUCIeNXo
+omipVIl41s2bnd+J4RPibSNcTK3w9/+89/eeP63UmYvTfvm2ddR2vUFTmyyMyvjX
+gBYlbDOiVnXgLGihdJpgXbIMMabodRU+oW8TWWKi6ZvxAaXRS+/wSdIehDeKbGoC
+uj6zsYHGhFMmmkjhFJEJCXnNEubsU6jdBhp4AiJB4ai1XmDh7HUxeUWzSsgnS6YT
+uCmCmuVSS8t3QlIFm0rCUqw7+ALuN1imXcITw1CQzfGySr3WjHq8krVC69Wt5QRS
++Lwucfe48LnCRBhhU/9pjODozwdm4pyx7DLm1vyzEtczlGMnSXoIlJV7YDe43F+B
+Ri58i1HCjxQyFTxXc1JX4Pik5sq+phSwddlqy/TU7J9qssyWO+pVpcGLa1b7yV9z
+hjlPTTFhu+5c9otPHuKBGGV/P0+Ij+3NHsiE9mJAoYVj1HJkIZ3lCELPDdrcIURZ
+9TLeSegrjxFdymLEY+V4OUfdfDiDxW+gzC7vG/wsJB24AzXB4dc=
+=hxSk
 -----END PGP SIGNATURE-----
