@@ -409,21 +409,6 @@ Maintainer: Anton Filimonov <anton.filimonov@gmail.com>
 Version: 24.11.0.1685
 Installed-Size: 34718
 
-Package: libewf-legacy
-Version: 1:20140816-1
-Architecture: amd64
-Maintainer: drift-builder
-Provides: libewf-legacy
-Priority: optional
-Section: libs
-Filename: pool/main/libe/libewf-legacy/libewf-legacy_20140816-1_amd64.deb
-Size: 1333180
-SHA256: 27de8a4a484f6bf8df976e9734e4910b764a54c04fc1b7578e272138d734a6b6
-SHA1: 500fb3e240c9461e24c5e4150dc28c6e0a776c9f
-MD5sum: 400cecea4313f93bbefbf09803b7ac01
-Description: Libewf Legacy 20140816 (only lib libewf.so.2)
- This package is the official libewf legacy 2014
-
 Package: msedit
 Version: 1.2.0
 Architecture: amd64
