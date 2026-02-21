@@ -61,17 +61,17 @@ Description: Meta-packet for DRIFT desktop environment.
  DRIFT desktop configuration.
 
 Package: drift-desktop-core
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: DRIFT Admin <drift@driftlinux.com>
-Depends: xorg,xserver-xorg-video-all,lightdm,lightdm-gtk-greeter,lightdm-gtk-greeter-settings,librsvg2-common,dconf-cli,xdg-utils
+Depends: xorg,xserver-xorg-video-all,lightdm,lightdm-gtk-greeter,lightdm-gtk-greeter-settings,librsvg2-common,dconf-cli,xdg-utils,gir1.2-gtk-4.0,gir1.2-adw-1
 Priority: optional
 Section: misc
-Filename: pool/main/d/drift-desktop-core/drift-desktop-core_1.0.2_all.deb
-Size: 648
-SHA256: c42158cb80c0b974e3ade9efcbf3f9133931d4f285a59751b4e760e9afc29803
-SHA1: 5d44db86c0ca4ff46652f350fdc950d9851b91f5
-MD5sum: ad2d6ed09721a9be57218097eb7c4d95
+Filename: pool/main/d/drift-desktop-core/drift-desktop-core_1.0.3_all.deb
+Size: 666
+SHA256: 3e7ee9212fac9a4a0ceda73f9146d9803d40d204bd58fdafc60a0e18bad16ea3
+SHA1: ef90b048d5f42ba46e5e4679eb9d8cd0c364604d
+MD5sum: 95c72a9b518af56872693273da8fe062
 Description: Meta-packet for DRIFT desktop-core environment.
  This package installs the dependencies required for the 
  DRIFT desktop-core configuration.
